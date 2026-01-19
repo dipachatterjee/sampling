@@ -40,30 +40,33 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `3`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to examine how age influences music taste, with a focus on perceptions of popular music. By following participants over multiple years and comparing across age groups, the study aims to understand how music preferences change (or remain the same) over time.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population: Individuals aged 10 (with parental consent) to 50 at the start of the study. These participants will be tracked overtime to assess changes in music preferences.
+Sampling Frame: Participants under the age of 18 will be recruited from school enrollment lists (with parental consent). Participants 18-yrs or older will be recruited from voter registration lists. These two lists will be stratified based on school districts and electoral districts/ridings.
+Sampling Units: The stratified school districts or electoral districts, from where partipants are selected.
+Observational Units: Individuals (people) who are surveyed for their music preferences over time.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. Current age?
+2. Current occupation or school year?
+3. How many days would you say you listen to music per week? (0-7)
+4. Indicate which music genre you prefer. Please indicate your preference for each style from 1 (least preferred) to 5 (most preferred). [Will provide a list of genres, including 'other']
+5. Who is your current favourite musician/group? What would you characterize their style as?
+6. Indicate which of the following songs you have heard this year. [List of songs from that year's top 10]
+7. Do you currently play any instruments? If yes, please write which instrument you play.
+8. When/during which scenarios do you listen to music? Please indicate your choice from 1 (never) to 5 (always). [List of things like 'during driving', 'while working', 'doing chores', 'relaxation', 'on a night out', etc]
+9. How important would you say music is to your daily life? (1 = not important, 5 = very important)
+10. Compared to 5 years ago, how similar are the types of music you currently enjoy? (1 = not similar, 5 = very similar)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +74,19 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type = Stratified design employing probability sampling of Canadians 15y+ in private households, cross-sectional
+2. Sample size = 40,000 invitation were sent (from 50,000 units)
+3. Target population = All persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
+4. Sampling frame = Landline and cellular telephone numbers from the Census and various administrative sources with Statistics Canada's dwelling frame.
+5. Survey mode(s) = Electronic questionnaire or through CATI (computer assisted telephone interviewing), no proxy reporting, in English or French
+6. Timeline = 2018-09-04 to 2018-12-28
+7. Response rate = 41.9% (of 40,000 = 16,760)
+8. Weights = (A) The weight is the number of persons represented by a given respondent. (B) To adjust for 'rejecting' participants, the person weight for respondents that are not 'rejected' and are not volunteers is multiplied by a factor. (C) Weights were adjusted so that the weighted income distribution of GVP matched the 2017 CIS distribution by province. (D) Bootstrap weights for design-based variance estimation.
+9. Data processing = Processing used the SSPE set of generalized processing steps in a structured environment, with automated and manual edits made at macro and micro levels.
+10. Cleaning, imputation, etc = All imputations were made using donor records selected through a score function via 9 steps (except a few cases), and the GVP imputation process helped to fill incomplete responses
+11. Sources of error = (A) Non-sampling error: from imperfect coverage or non-response. (B) Non-response bias: Bias that occurs when some respondents do not answer. (C) Coverage error: if parts of target population are not included...this was minimized using several linked sources. (D) Other non-sampling errors: minimized through careful survey design and processing.
+12. Limitations, known biases, etc = Households without telephones excluded, households targeted (maybe missing institutions), cross-sectional (cannot track overtime), 10 provinces (missing the 3 territories), Canadians 15+ (could be missing youth volunteering) - although it was a pretty well-designed study.
+13. Link to documentation and any additional sources used = https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
 ```
 
 ## Rubric
